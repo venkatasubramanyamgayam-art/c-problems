@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int a=2;
+    a--;
+    a--;
+    printf("%d",a);
+    return 0;
+}
