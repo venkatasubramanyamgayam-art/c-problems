@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    float a=25;
+    printf("%.1f",a);
+    return 0;
+}
