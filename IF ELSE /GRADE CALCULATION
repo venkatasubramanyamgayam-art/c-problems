@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    
+    int y  ;
+    printf("enter the numbers ");
+    scanf("%d",&y);
+    if((y>=75)&&(y<90))
+    printf("GRADE:B");
+
+  else
+  printf("FAIL");
+
+    return 0;
+}
