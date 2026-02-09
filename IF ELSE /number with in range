@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    
+    int a;
+    printf("enter the number ");
+    scanf("%d",&a);
+  
+
+    if((a>=10)&&(a<=20))
+    printf(" with in range");
+
+
+  else
+  printf(" not with in range ");
+
+    return 0;
+}
