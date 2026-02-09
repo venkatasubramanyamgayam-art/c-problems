@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    
+    int y,s;
+    printf("enter the numbers ");
+    scanf("%d %d",&y ,&s);
+    if (y>s)
+    printf("%d",y);
+     else 
+    printf("%d",s);
+
+    return 0;
+}
