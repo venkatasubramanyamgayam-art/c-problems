@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int a;
+    printf("enter the numbers");
+    scanf("%d",&a);
+if(a>0)
+printf("POSITIVE");
+else if(a=0)
+printf("ZERO");
+else 
+printf("NEGATIVE");
+
+    return 0;
+}
