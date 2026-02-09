@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    
+    char y  ;
+    printf("enter the numbers ");
+    scanf("%c",&y);
+    if((y>='A')&&(y<'Z'))
+    printf("upper case letter ");
+
+
+  else
+  printf("lower case letter ");
+
+    return 0;
+}
