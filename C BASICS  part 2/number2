@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int result,num ;
+    printf("enter the numbers");
+    scanf("%d",&num);
+    result=num<<1;
+
+    printf(" 1 position,%d\n" ,result);
+    return 0;
+}
