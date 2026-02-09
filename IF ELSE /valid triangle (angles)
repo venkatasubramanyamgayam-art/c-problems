@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    
+    int y ,a ,b,c ;
+    printf("enter the numbers ");
+    scanf("%d %d %d",&c,&a,&b);
+    y=a+b+c;
+
+    if(y==180)
+    printf("valid triangle ");
+
+
+  else
+  printf("  not valid triangle ");
+
+    return 0;
+}
