@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    
+    int a ,b,c ;
+    printf("enter the numbers ");
+    scanf("%d %d %d",&c,&a,&b);
+  
+
+    if((a==b)&&(b==c)&&(c=a))
+    printf(" Equiletaral triangle");
+
+
+  else
+  printf(" not equiletaral triangle  ");
+
+    return 0;
+}
