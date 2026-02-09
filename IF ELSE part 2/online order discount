@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int purchase ;
+    printf("enter the salary");
+    scanf("%d",&purchase);
+    if (purchase>=1000)
+    printf(" Discount Applied");
+    else 
+    printf(" No Discount ");
+    return 0;
+}
