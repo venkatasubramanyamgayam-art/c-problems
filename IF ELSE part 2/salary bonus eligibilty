@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int salary ;
+    printf("enter the salary");
+    scanf("%d",&salary);
+    if (salary>35000)
+    printf("bonus eligible ");
+    else 
+    printf("not eligible bonus ");
+    return 0;
+}
