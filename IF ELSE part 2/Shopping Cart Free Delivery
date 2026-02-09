@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int price ;
+    printf("enter the price ");
+    scanf("%d",&price);
+    if(price>=499)
+    printf("free delivery");
+    else 
+    printf(" Delivery Charges Apply");
+    return 0;
+}
