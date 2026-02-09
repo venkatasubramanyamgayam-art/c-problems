@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+    int percentage ;
+    printf("enter the percentage");
+    scanf("%d",&percentage);
+    if((percentage=75))
+    printf(" Eligible for Exam");
+    else 
+    printf("  not Eligible for Exam ");
+    return 0;
+}
