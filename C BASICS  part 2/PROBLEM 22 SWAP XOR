@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    int a,b,temp ;
+    printf("enter the numbers");
+    scanf("%d %d",&a,&b);
+    a^temp ;
+    a^b;
+    temp^b;
+
+    printf(" after swaping a= %d,b=%d",a,b);
+    
+    return 0;
+}
