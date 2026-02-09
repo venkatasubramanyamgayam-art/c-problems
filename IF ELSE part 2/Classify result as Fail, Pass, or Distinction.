@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+    int marks ;
+    printf("enter the marks ");
+    scanf("%d",&marks);
+    if(marks>=85)
+    printf("distinction");
+    else if (marks>35)
+    printf("pass");
+    else 
+    printf(" fail");
+    return 0;
+}
