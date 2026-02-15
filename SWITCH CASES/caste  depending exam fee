@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+int caste;
+printf("enter the marks");
+scanf("%d",&caste);
+switch(caste){
+   case 1:
+   printf("general\n ₹1200");
+   break;
+
+     case 2 :
+   printf(" 0BC\n₹800");
+   break;
+ 
+  case 3:
+   printf("SCST\n ₹500");
+   break;
+   
+}
+}
