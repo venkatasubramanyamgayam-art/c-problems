@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+int rent;
+printf("enter the marks");
+scanf("%d",&rent );
+switch(rent){
+   case 1:
+   printf(" 80,000");
+   break;
+
+     case 2:
+   printf(" 60000");
+   break;
+ 
+  case 3:
+   printf(" 45000");
+   break;
+   
+}
+}
