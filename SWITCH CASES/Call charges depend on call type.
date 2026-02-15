@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+int type;
+printf("enter the type");
+scanf("%d",&type);
+switch(type){
+   case 1:
+   printf("local\n ₹1/min");
+   break;
+
+     case 2 :
+   printf(" STD\n ₹3/ min");
+   break;
+ 
+  case 3:
+   printf("ISD\n ₹10/min");
+   break;
+   
+}
+}
