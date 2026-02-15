@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+int delivaryprice;
+printf("enter the mode");
+scanf("%d",&delivaryprice );
+switch(delivaryprice){
+   case 1:
+   printf(" 40");
+   break;
+
+     case 2:
+   printf(" 120");
+   break;
+ 
+  case 3:
+   printf(" free");
+   break;
+   
+}
+}
