@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+int att,marks;
+printf("enter the attendence");
+scanf("%d",&att);
+printf("enter the marks");
+scanf("%d",&marks);
+if((att>75)&&(marks>=75))
+printf("Distinction");
+else if((marks>=50)&&(att>75))
+printf("pass");
+else 
+printf("Fail");
+
+    return 0;
+}
