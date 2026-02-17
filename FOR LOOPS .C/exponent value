@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+    //Your Code goes here!
+    
+    int base, exponent;
+    long long result = 1;
+    int i;
+
+    printf("Enter base and exponent: ");
+    scanf("%d %d", &base, &exponent);
+
+    for (i = 1; i <= exponent; i++) {
+        result = result * base;
+    }
+
+    printf("Result = %lld\n", result);
+
+    return 0;
+}
+
+    
