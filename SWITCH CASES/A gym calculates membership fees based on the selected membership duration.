@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main() {
+int gym;
+printf("enter the months");
+scanf("%d",&gym);
+switch(gym){
+case 1:
+printf("1  month ₹1500");
+break;
+case 2:
+printf("3 months ₹4000");
+break;
+case 3:
+printf(" 6 months  ₹7000");
+break;
+
+
+
+
+
+
+}
+    return 0;
+}
