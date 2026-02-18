@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int designation, experience;
+    int salary = 0, bonus = 0;
+
+    printf("Enter Designation Code : ");
+    scanf("%d", &designation);
+
+    printf("Enter Yearf Experience: ");
+    scanf("%d", &experience);
+/ Base salary using switch-case
+    switch(designation) {
+        case 1:
+            salary = 50000;
+            break;
+        case 2:
+            salary = 35000;
+            break;
+        default:
+            printf("Invalid Designation Code!\n");
+            return 0;
+    } if (experience >= 3) 
+        bonus = experience * 5000;
+     salary += bonus;
+printf("\nTotal Salary = ₹%d\n", salary);
+
+    return 0;
+}
