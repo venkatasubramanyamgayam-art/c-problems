@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int customerType;
+    int billAmount;
+    float discount = 0, finalAmount;
+
+    // Input
+    scanf("%d", &customerType);
+    scanf("%d", &billAmount);
+
+    switch(customerType) {/
+        case 1: 
+            discount = 0.05 * billAmount;
+            break;
+
+        case 2:  
+            discount = 0.15 * billAmount;
+            break;
+
+        default:
+            printf("Invalid customer type");
+            return 0;
+    }
+
+    finalAmount = billAmount - discount;
+
+    printf("Final Bill Amount = %.2f", finalAmount);
+
+    return 0;
+}
