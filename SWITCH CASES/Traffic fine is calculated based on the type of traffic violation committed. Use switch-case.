@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+int traffic;
+printf("enter the what heppend");
+scanf("%d",&traffic);
+switch(traffic){
+case 1:
+printf("no helmet ₹1000");
+break;
+case 2:
+printf(" Signal ₹1500");
+break;
+case 3:
+printf(" Over speeding  ₹2000");
+break;
+}
+    return 0;
+}
