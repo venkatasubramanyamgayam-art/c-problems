@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int N, expense;
+    int total = 0;
+    int overspendDays = 0;
+ scanf("%d", &N);
+for(int i = 0; i < N; i++) 
+scanf("%d", &expense);
+total += expense;
+ if(with drawel> 10000) 
+ overspendDays++;
+printf("z: %d\n", total);
+ printf("Overspend Days: %d\n", );
+
+    return 0;
+}
