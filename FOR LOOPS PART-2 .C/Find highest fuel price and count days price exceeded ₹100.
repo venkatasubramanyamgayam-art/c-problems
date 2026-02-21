@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int N;
+    int price =0;
+    int high_price;
+    int high_price_days = 0;
+ scanf("%d", &N);
+ for(int i = 0; i < N; i++) {
+scanf("%d", &price);
+high_price += price;
+if(high_Price> 100) {
+  high_price_days++;
+ }
+}
+printf("high_price: %d\n", high_price);
+printf("high usage Days: %d\n", high_price_days);
+
+    return 0;
+}
