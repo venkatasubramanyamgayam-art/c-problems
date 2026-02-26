@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+int n;
+scanf("%d", &n);
+int score[n];
+int totalRisk = 0, highRisk = 0;
+for(int i = 0; i < n; i++) {
+scanf("%d", &score[i]);
+    }
+for(int i = 0; i < n; i++) {
+totalRisk += score[i];
+if(score[i] > 50) {
+highRisk++;
+        }
+    } printf("Total Risk: %d\n", totalRisk);
+ printf("High Risk Sessions: %d\n", highRisk);
+
+    return 0;
+}
