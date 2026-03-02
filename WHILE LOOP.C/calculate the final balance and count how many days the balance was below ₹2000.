@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+int N;
+int initialBalance;
+int transaction;
+int i = 0;
+int lowBalanceDays = 0;
+scanf("%d", &N);
+scanf("%d", &initialBalance);
+ balance = initialBalance;
+while (i < N) {
+scanf("%d", &transaction);
+balance = balance + transaction;
+lowBalanceDays++;
+}      i++;
+}
+printf("Final Balance: %d\n", balance);
+printf("Low Balance Days: %d\n", lowBalanceDays);
+ return 0;
+}
