@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main() {
+int totalData, N;
+scanf("%d", &totalData);
+scanf("%d", &N);
+int usage, i = 0, daysUsed = 0;
+while(i < N && totalData > 0) {
+scanf("%d", &usage);
+totalData -= usage;
+if(totalData >= 0) {
+daysUsed++;
+}i++;
+}
+if(total Data < 0)
+totalData = 0;
+printf("Days Used: %d\n", daysUsed);
+    printf("Remaining Data: %dGB\n", totalData);
+
+    return 0;
+}
