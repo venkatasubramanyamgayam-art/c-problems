@@ -1,0 +1,26 @@
+include<stdio.h>
+int main(){
+int maxcapacity,N;
+int patients;
+int treated =0,rejected=0;
+int i=0;
+printf("enter the maximum capacity");
+printf("%d",&maxcapacity);
+printf("enter the hours");
+printf("%d",&N);
+whil(i<N){
+printf("enter the patients arriveing in hour %d:",i+1);
+scanf("%d",&patients):
+if(treated+patients<=maxcapacity){
+treated=treated+patients;
+}
+else{
+rejected=rejected+(treated+patients-maxcapacity);
+treated=maxcapacity;
+}
+i++;
+}
+printf("total rejected patients:%d\n,treated);
+printf("total. rejected patients :%d\n",rejected);
+return 0;
+}
