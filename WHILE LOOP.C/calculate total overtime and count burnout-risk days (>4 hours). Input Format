@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main(){
+int n,i=0;
+int hours[100];
+int total=0,burnout=0;
+scanf("%d",&n);
+while(I<n)
+{
+scanf("%d",&hours[i]);
+i++;
+}
+i=0;
+while(i<n)
+{
+total=total+hours[i];
+if(hours[i]>4)
+{
+burnout++;
+}
+i++;
+}
+printf("Total Overtime Hours :%d\n",total );
+printf("Burnout  Risk Days :%d",burnout);
+return 0;
+}
