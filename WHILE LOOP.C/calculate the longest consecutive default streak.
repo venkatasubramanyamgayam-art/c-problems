@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main(){
+int arr[100];
+int current =0,max=0;
+scanf("%d",&arr[i]-0);
+i++;
+i=0;
+while(i<n)
+{
+if(arr[i]==0)
+{
+currrent++;
+if(current>max)
+{
+max=current;
+}
+}
+else{
+current=0;
+}i++;
+}
+printf("longest default strak:%d",max);
+return 0;
+}
