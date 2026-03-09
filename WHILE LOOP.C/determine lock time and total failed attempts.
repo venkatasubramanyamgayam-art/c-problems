@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main(){
+int n,i=0;
+int login;
+int fail_count=0;
+int total_fail=0;
+printf("Enter number of attenpts:");
+scanf("%d",&n);
+while(i<n)
+{
+printf("Enter login result (1=success,0=failure):");
+scanf("%d",&login);
+if(login==)
+{
+fail_count++;
+total_fail++;
+}
+else {
+fail_count=0}
+if(fail_count==3)
+{
+printf("Lock triggered at attempt :%d\n",i+1);
+break;
+}
+printf("total failed attempt :%d",total_fail );
+return 0;
+}
