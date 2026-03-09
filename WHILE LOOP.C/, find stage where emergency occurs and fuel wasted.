@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main() {
+int fuel, n, i = 0;
+int burn[100];
+int stage = -1;
+int wasted = 0;
+scanf("%d", &fuel);
+scanf("%d", &n);
+for(int j = 0; j < n; j++) {
+scanf("%d", &burn[j]);
+}
+while(i < n) {
+fuel = fuel - burn[i];
+if(fuel < 0) {
+stage = i + 1;
+wasted = -fuel;
+break;
+}i++;
+}
+if(stage == -1) {
+printf("Emergency Stage: Not Occurred\n");
+printf("Fuel Wasted: 0");
+}
+else {
+printf("Emergency Stage: %d\n", stage);
+printf("Fuel Wasted: %d", wasted);
+}
+return 0;
+}
