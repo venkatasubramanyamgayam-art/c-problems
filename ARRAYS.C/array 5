@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int N, i;
+int arr[100];
+int expectedSum, actualSum = 0, missing;
+scanf("%d", &N);
+for(i = 0; i < N-1; i++)
+{
+scanf("%d", &arr[i]);
+actualSum += arr[i];
+}
+expectedSum = N * (N + 1) / 2;
+missing = expectedSum - actualSum;
+
+ b   printf("%d", missing);
+
+    return 0;
+}
