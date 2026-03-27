@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+    int N ,  withdraw;
+    int total=0;
+    int withdrawL =0;
+    scanf("%d",&N);
+
+    for(int i = 0; i < N; i++)
+scanf("%d", &withdraw);
+total+=withdraw;
+if(withdraw> 10000)
+withdraw++;
+printf("approved");
+
+ printf("withdraw: %d\n",withdraw );
+
+    return 0;
+}
