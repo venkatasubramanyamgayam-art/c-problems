@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <limits.h>
+
+int main()
+{
+int n, i;
+int max = INT_MIN, second = INT_MIN;
+printf("Enter number of employees: ");
+    scanf("%d", &n);
+int salary[n];
+printf("Enter salaries:\n");
+for(i = 0; i < n; i++)
+{
+scanf("%d", &salary[i]);
+}
+for(i = 0; i < n; i++)
+{
+if(salary[i] > max)
+{
+second = max;
+max = salary[i];
+}
+else if(salary[i] > second && salary[i] != max)
+{
+second = salary[i];
+}
+}
+printf("Second Highest Salary = %d", second);
+return 0;
+}
