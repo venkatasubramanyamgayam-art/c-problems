@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main() {
+    
+    int y ,a ,b ;
+    printf("enter the numbers ");
+    scanf("%d %d %d",&y,&a ,&b);
+    if((y>a)&&(y>b))
+    printf(" %d",y);
+else if((a>y)&&(a>b))
+  printf("%d",a);
+  else
+  printf("%d",b);
+
+    return 0;
+}
